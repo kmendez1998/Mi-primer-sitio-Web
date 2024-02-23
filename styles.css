@@ -1,5 +1,9 @@
 body{
-    background-color: antiquewhite;
+    background-color: rgb(255, 246, 246);
+}
+
+p{
+    padding: 0 0 0 1em;
 }
 
 .title{
@@ -10,8 +14,8 @@ body{
 .logo{
     width: 200px;
     height: 150px;
-}
-
+}    
+    
 
 #ppl{
     font-size: 3em;
@@ -49,3 +53,16 @@ body{
     flex-direction: row;
     justify-content: space-between;
 }
+
+
+#inicio{
+    padding: 1em 0 1em 1em;
+   
+}
+
+
+.menu:hover{
+    font-size: 1.5em;
+    transition: 1s;
+}
+
